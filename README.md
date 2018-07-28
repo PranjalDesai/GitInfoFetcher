@@ -19,7 +19,7 @@
   - [Glide][link_2]
   - [RxJava][link_3]
   - [Circle ImageView][link_4]
-  - [Retrofit] [link_5]
+  - [Retrofit][link_5]
   
 # How To Use
   - Clone the project and run
