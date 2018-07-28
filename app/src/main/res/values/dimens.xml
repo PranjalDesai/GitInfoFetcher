@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sixteen_dp">16dp</dimen>
+    <dimen name="thirty_two_dp">32dp</dimen>
+    <dimen name="thirty_six_dp">36dp</dimen>
+    <dimen name="forty_dp">40dp</dimen>
+    <dimen name="thirty_dp">30dp</dimen>
+    <dimen name="twenty_dp">20dp</dimen>
+    <dimen name="fifty_six_dp">56dp</dimen>
+    <dimen name="four_dp">4dp</dimen>
+    <dimen name="zero_dp">0dp</dimen>
+    <dimen name="eight_dp">8dp</dimen>
+    <dimen name="eighteen_sp">18sp</dimen>
+
+
+    <dimen name="twenty_four_sp">24sp</dimen>
+    <dimen name="twenty_sp">20sp</dimen>
+    <dimen name="sixteen_textsize_sp">16sp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="app_bar_height">200dp</dimen>
+    <dimen name="item_width">200dp</dimen>
+
+</resources>

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">GitInfoFetcher</string>
+    <string name="search_btn_text">Search</string>
+    <string name="username_hint_text">Enter Github Username</string>
+    <string name="search_title_text">Search Repositories</string>
+    <string name="required_text">Required Field</string>
+    <string name="type_error">Please Select Type</string>
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail">Item Detail</string>
+
+    <string name="language_title">Language:</string>
+    <string name="description_title">Description</string>
+    <string name="url_title">Url:</string>
+    <string name="star_title">Stars:</string>
+    <string name="watch_title">Watch:</string>
+    <string name="fork_title">Fork:</string>
+    <string name="size_title">Size:</string>
+    <string name="open_issues_title">Open Issues:</string>
+    <string name="select_type_title">Select Type</string>
+
+    <string name="user_chip">User</string>
+    <string name="org_chip">Organization</string>
+    <string name="offline_title">Offline Data</string>
+
+    <string name="login">login</string>
+    <string name="empty_repo">Empty Repos</string>
+    <string name="username">username</string>
+    <string name="login_name">owner.login</string>
+    <string name="language">language</string>
+    <string name="star_count">stargazers_count</string>
+    <string name="repoDetails">repoDetails</string>
+
+</resources>

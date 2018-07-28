@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/languageTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/thirty_two_dp"
+        android:layout_marginTop="@dimen/thirty_two_dp"
+        android:text="@string/language_title"
+        android:textSize="@dimen/eighteen_sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/language_details"
+        android:layout_width="@dimen/zero_dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/thirty_two_dp"
+        android:textSize="@dimen/eighteen_sp"
+        android:layout_marginStart="@dimen/sixteen_dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/languageTitle"
+        app:layout_constraintTop_toTopOf="@+id/languageTitle" />
+
+    <TextView
+        android:id="@+id/descriptionTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/thirty_two_dp"
+        android:layout_marginTop="@dimen/sixteen_dp"
+        android:textSize="@dimen/eighteen_sp"
+        android:text="@string/description_title"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/language_details" />
+
+    <TextView
+        android:id="@+id/description_details"
+        android:layout_width="@dimen/zero_dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/thirty_two_dp"
+        android:textSize="@dimen/eighteen_sp"
+        android:layout_marginStart="@dimen/sixteen_dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/descriptionTitle"
+        app:layout_constraintTop_toTopOf="@+id/descriptionTitle" />
+
+    <TextView
+        android:id="@+id/urlTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/thirty_two_dp"
+        android:layout_marginTop="@dimen/sixteen_dp"
+        android:text="@string/url_title"
+        android:textColor="@color/black"
+        android:textSize="@dimen/eighteen_sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/description_details" />
+
+    <TextView
+        android:id="@+id/url_details"
+        android:layout_width="@dimen/zero_dp"
+        android:textSize="@dimen/eighteen_sp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/thirty_two_dp"
+        android:layout_marginStart="@dimen/sixteen_dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/urlTitle"
+        app:layout_constraintTop_toTopOf="@+id/urlTitle" />
+
+    <TextView
+        android:id="@+id/stargazers_count_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/thirty_two_dp"
+        android:layout_marginTop="@dimen/sixteen_dp"
+        android:textSize="@dimen/eighteen_sp"
+        android:text="@string/star_title"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/url_details" />
+
+    <TextView
+        android:id="@+id/stargazers_count_details"
+        android:layout_width="@dimen/zero_dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/thirty_two_dp"
+        android:textSize="@dimen/eighteen_sp"
+        android:layout_marginStart="@dimen/sixteen_dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/stargazers_count_title"
+        app:layout_constraintTop_toTopOf="@+id/stargazers_count_title" />
+
+    <TextView
+        android:id="@+id/watchers_count_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/thirty_two_dp"
+        android:layout_marginTop="@dimen/sixteen_dp"
+        android:textSize="@dimen/eighteen_sp"
+        android:text="@string/watch_title"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/stargazers_count_details" />
+
+    <TextView
+        android:id="@+id/watchers_count_details"
+        android:layout_width="@dimen/zero_dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/thirty_two_dp"
+        android:textSize="@dimen/eighteen_sp"
+        android:layout_marginStart="@dimen/sixteen_dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/watchers_count_title"
+        app:layout_constraintTop_toTopOf="@+id/watchers_count_title" />
+
+    <TextView
+        android:id="@+id/forksTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/thirty_two_dp"
+        android:textSize="@dimen/eighteen_sp"
+        android:layout_marginTop="@dimen/sixteen_dp"
+        android:text="@string/fork_title"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/watchers_count_details" />
+
+    <TextView
+        android:id="@+id/forks_details"
+        android:layout_width="@dimen/zero_dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/thirty_two_dp"
+        android:textSize="@dimen/eighteen_sp"
+        android:layout_marginStart="@dimen/sixteen_dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/forksTitle"
+        app:layout_constraintTop_toTopOf="@+id/forksTitle" />
+
+    <TextView
+        android:id="@+id/sizeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/thirty_two_dp"
+        android:textSize="@dimen/eighteen_sp"
+        android:layout_marginTop="@dimen/sixteen_dp"
+        android:text="@string/size_title"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/forks_details" />
+
+    <TextView
+        android:id="@+id/size_details"
+        android:layout_width="@dimen/zero_dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/thirty_two_dp"
+        android:textSize="@dimen/eighteen_sp"
+        android:layout_marginStart="@dimen/sixteen_dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/sizeTitle"
+        app:layout_constraintTop_toTopOf="@+id/sizeTitle" />
+
+    <TextView
+        android:id="@+id/open_issues_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/thirty_two_dp"
+        android:textSize="@dimen/eighteen_sp"
+        android:layout_marginTop="@dimen/sixteen_dp"
+        android:text="@string/open_issues_title"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/size_details" />
+
+    <TextView
+        android:id="@+id/open_issues_details"
+        android:layout_width="@dimen/zero_dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/thirty_two_dp"
+        android:layout_marginEnd="@dimen/thirty_two_dp"
+        android:textSize="@dimen/eighteen_sp"
+        android:layout_marginStart="@dimen/sixteen_dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/open_issues_title"
+        app:layout_constraintTop_toTopOf="@+id/open_issues_title" />
+
+
+</android.support.constraint.ConstraintLayout>

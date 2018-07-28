@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/constraint_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/ownerName"
+                android:layout_width="@dimen/zero_dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/thirty_two_dp"
+                android:layout_marginStart="@dimen/thirty_two_dp"
+                android:ellipsize="end"
+                android:maxLength="30"
+                android:textColor="@color/black"
+                android:textSize="@dimen/twenty_sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/ownerAvatar"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/ownerAvatar"
+                app:layout_constraintTop_toTopOf="@+id/ownerAvatar" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/ownerAvatar"
+                android:layout_width="@dimen/fifty_six_dp"
+                android:layout_height="@dimen/fifty_six_dp"
+                android:layout_marginBottom="@dimen/sixteen_dp"
+                android:layout_marginStart="@dimen/thirty_two_dp"
+                android:layout_marginTop="@dimen/sixteen_dp"
+                android:src="@drawable/account_circle"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </android.support.constraint.ConstraintLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraint_layout" />
+    </android.support.constraint.ConstraintLayout>
+</android.support.v7.widget.CardView>
